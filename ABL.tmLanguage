@@ -117,7 +117,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(?&lt;!&amp;)(char(acter)?|(?&lt;!-)handle|dataset(-handle)?|field|(?&lt;!-)index|log(ical)?|int(eger|64)?|dec(imal)?|stream|temp-table|frame [a-z]+)(?!\s*\()\b</string>
+			<string>(?i)\b(?&lt;!&amp;)(char(acter)?|(?&lt;!-)handle|dataset(-handle)?|field|(?&lt;!-)index|log(ical)?|int(eger|64)?|dec(imal)?|memptr|recid|rowid|datetime|datetime-tz|stream|temp-table|frame [a-z]+)(?!\s*\()\b</string>
 			<key>name</key>
 			<string>storage.type.source.abl</string>
 		</dict>

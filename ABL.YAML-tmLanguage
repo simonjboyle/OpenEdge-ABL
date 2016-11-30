@@ -53,7 +53,7 @@ patterns:
     match: (?i)\b(def(ine)?\s+(((new\s+)?shared\s+)?(var(iable)?|stream|buffer)|((input|input-output|output)\s+param(eter)?)|temp-table|query)|form)\b
 
   - name: storage.type.source.abl
-    match: (?i)\b(?<!&)(char(acter)?|(?<!-)handle|dataset(-handle)?|field|(?<!-)index|log(ical)?|int(eger|64)?|dec(imal)?|stream|temp-table|frame [a-z]+)(?!\s*\()\b
+    match: (?i)\b(?<!&)(char(acter)?|(?<!-)handle|dataset(-handle)?|field|(?<!-)index|log(ical)?|int(eger|64)?|dec(imal)?|memptr|recid|rowid|datetime|datetime-tz|stream|temp-table|frame [a-z]+)(?!\s*\()\b
 
   - name: storage.type.function.abl
     match: (?i)(end (procedure|function))
